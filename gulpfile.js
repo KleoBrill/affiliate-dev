@@ -58,4 +58,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('build', ['views', 'images', 'fonts', 'less']);
-gulp.task('dev', ['build', 'watch', 'connect']);
+gulp.task('default', ['build', 'watch', 'connect']);
